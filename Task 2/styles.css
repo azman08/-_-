@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("./calc.jpg");
+  color: black;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  width: 70%;
+  box-sizing: border-box;
+  background: rgba(255, 255, 255, 0.1);
+  color: #000000;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li span {
+  flex-grow: 1;
+}
+
+li button {
+  background-color: #ff5733;
+}
+
+li button:hover {
+  background-color: #c70039;
+}
